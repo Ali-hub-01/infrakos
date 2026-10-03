@@ -186,7 +186,7 @@
       var body = encodeURIComponent(
         'Имя: ' + name + '\nТелефон: ' + phone + '\nТема: ' + topic +
         (message ? '\n\nСообщение:\n' + message : '') +
-        '\n\nОтправлено с infracos.kz'
+        '\n\nОтправлено с сайта ИНФРАКОС'
       );
       formDone.hidden = false;
       window.location.href = 'mailto:post@infracos.kz?subject=' + subject + '&body=' + body;
